@@ -1,0 +1,11 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="{{url_for('static', filename='style/welcome.css')}}">
+    </head>
+    <body>
+        <img src="data:image/jpeg;base64,{{ encoded_string }}" alt = "Image">
+    </body>
+    <h1>
+        {{caption_to_print}}
+    </h1>
+</html>

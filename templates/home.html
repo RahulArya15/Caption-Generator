@@ -1,0 +1,14 @@
+<html>
+    <head>
+        <link rel = "stylesheet" href = "{{url_for('static', filename = 'style/welcome.css') }}">
+    </head>
+    <body>
+        <h1>
+            Upload an Image
+        </h1>
+        <form action = "/upload" method = 'post' enctype = "multipart/form-data">
+            <input type = "file" name = "file">
+            <input type = "submit" value = "upload">
+        </form>
+    </body>
+</html>
