@@ -1,5 +1,3 @@
-# Image Caption Generator
-
 ## Overview
 
 The Image Caption Generator is an advanced deep learning project that combines the formidable capabilities of the VGG16 and LSTM algorithms in Python to create captivating captions for images. This project is a testament to the power of artificial intelligence in understanding and describing images, even in the case of challenging datasets.
